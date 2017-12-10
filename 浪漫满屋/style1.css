@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+ margin:0;	
+ width:100%;
+}
+.top
+{
+	width:100%;
+	height:30px;
+	background:#FFF;
+}
+.top-right{
+ width:350px;
+ height:30px;
+ background:#FFF;
+ float:right;	
+ font-family:"微软雅黑";
+ font-size:18px;
+ text-align:left;
+ color: #F00;
+}
+.top-right a
+{
+	text-decoration:none;
+	color:#000;
+}
+.inputbox
+{
+ width:250px;
+ height:20px;
+ background:#FFF;
+ float:left;	
+ margin:0;
+}
+.input-left
+{width:200px;
+height:20px;
+float:left;
+margin-top:5px;
+}
+.input-right
+{width:50px;
+height:20px;
+float:right;
+margin:0;
+font-family:"微软雅黑";
+font-size:18px;
+color:#666;
+}
+.logo{
+	width:100%;
+	height:424px;
+	margin:0 auto;
+	
+}
+.banner{
+width:100%;
+height:70px;
+background:#FCF;
+margin-top:140px;
+
+}
+.banner-list{
+width:400px;
+height:50px;
+float:left;
+text-align:right;
+font-family:"微软雅黑";
+font-size:24px;
+font-weight:bold;
+line-height: 50px;
+margin-top:10px;
+}
+.banner-list a{
+text-decoration: none;
+color:#666;	
+}
+.display{
+	width:1500px;
+	height:600px;
+	margin:0 auto;
+	margin-top:30px;
+}
+.img{
+	width:300px;
+	height:400px;
+	float:right;
+}
+.nav1{width:1500px;
+      height:100px;
+	  margin-left:200px;
+	font-family:"微软雅黑 Light";
+	font-size:36px;
+	color:#F00;
+}
+
+.content{
+	width:1260px;
+	height:220px;
+	border:0px ;
+	margin:10px auto;
+}
+.item{
+	width:400px;
+	height:200px;
+	float:left;
+	font-family:"微软雅黑 Light";
+	text-align:center;
+	font-size:24px;
+	margin:10px;}
+	  
+.content1{
+	width:1260px;
+	height:420px;
+	border:0px ;
+	margin:10px auto;
+	display:flex;
+	justify-content:space-around; 
+	align-items:center;
+}
+.item1{
+	width:400px;
+	height:400px;
+	background:#ccc;
+	float:left;
+	margin:10px;
+	transition:all 1s;
+}
+.item1:hover{
+	box-shadow:0 0 5px 5px #000;
+}
+
+.footer
+{
+	height:380px;
+	width:100%;
+	margin-top:50px;
+}
+.img2
+{
+	width:100%;
+	height:380px;
+	float:left;
+}
+.totop{
+	width:30px;
+	height:30px;
+	background:#FCC;
+	position:fixed;
+	right:50px;
+	bottom:100px;
+	transition:all 1s; 
+}
+.totop:hover{
+	background:#FFC;
+	width:50px;
+	height:50px;
+}
+
+
+
+
+
+
+
